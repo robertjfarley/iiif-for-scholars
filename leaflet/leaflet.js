@@ -15,7 +15,7 @@ var layer1 = L.tileLayer.iiif(iiifUrl, {
 ).addTo(map);
 
 var layer2 = L.tileLayer.iiif(iiifUrl, {
-    quality: 'bitonal'
+    quality: 'gray'
   }
 ).addTo(map);
 
